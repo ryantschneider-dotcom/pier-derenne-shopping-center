@@ -50,6 +50,7 @@
   }
   .hero-img-wrap { position: relative; width: 100%; }
   .hero-img-wrap img { width: 100%; height: auto; display: block; }
+  .hero-video { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 520px; max-height: 700px; }
   .hero-overlay {
     position: absolute; inset: 0;
     background: linear-gradient(
@@ -307,7 +308,9 @@
 <!-- HERO -->
 <section id="hero">
   <div class="hero-img-wrap">
-    <img src="web_images/photo4.jpg" alt="DeRenne Shopping Center exterior — 44 E. DeRenne Avenue, Savannah GA" />
+    <video class="hero-video" autoplay muted loop playsinline poster="web_images/photo4.jpg">
+      <source src="hero_derenne.mp4" type="video/mp4">
+    </video>
     <div class="hero-overlay"></div>
   </div>
   <div class="hero-content">
@@ -494,7 +497,7 @@
       </div>
     </div>
     <div class="anchor-photo">
-      <img src="web_images/photo1.jpg" alt="Ochsner Novant Health 65 Plus at DeRenne Shopping Center — anchor tenant" />
+      <img src="web_images/anchor_new.jpg" alt="Ochsner Novant Health 65 Plus at DeRenne Shopping Center — anchor tenant with new asphalt" />
       <div class="anchor-photo-caption">Ochsner Novant Health 65 Plus — Anchor Tenant · 48 E. DeRenne Ave</div>
     </div>
   </div>
@@ -644,7 +647,7 @@
       <div class="gallery-caption">Full Center Exterior — Parking &amp; Pylon Sign</div>
     </div>
     <div class="gallery-item">
-      <img src="web_images/photo1.jpg" alt="Ochsner Novant Health 65 Plus anchor tenant suite" />
+      <img src="web_images/anchor_new.jpg" alt="Ochsner Novant Health 65 Plus anchor tenant suite with new asphalt" />
       <div class="gallery-caption">Anchor Tenant — Ochsner Novant Health</div>
     </div>
     <div class="gallery-item">
